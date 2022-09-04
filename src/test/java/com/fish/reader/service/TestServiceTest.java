@@ -1,5 +1,6 @@
 package com.fish.reader.service;
 
+import com.fish.reader.service.TestService;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
