@@ -20,7 +20,7 @@ public class MyBatisPlusTest {
     public void testInsert(){
         Test test = new Test();
         test.setContent("MyBatis Plus测试");
-        testMapper.insert(test);//insert是之前继承的接口里面的
+        testMapper.insert(test);
     }
 
     @org.junit.Test

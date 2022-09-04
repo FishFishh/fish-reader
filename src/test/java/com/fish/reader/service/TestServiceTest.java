@@ -1,7 +1,5 @@
 package com.fish.reader.service;
 
-import com.fish.reader.service.TestService;
-import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -11,7 +9,7 @@ import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext.xml"})
-public class TestServiceTest extends TestCase {
+public class TestServiceTest {
     @Resource
     private TestService testService;
     @Test
